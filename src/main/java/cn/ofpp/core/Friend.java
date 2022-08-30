@@ -107,11 +107,11 @@ public class Friend {
         return String.valueOf(dateTime.between(now, DateUnit.DAY));
     }
     public static String getMemoryDay(DateTime dateTime) {
-        //dateTime = DateUtil.beginOfDay(dateTime);
-        //dateTime.offset(DateField.DAY_OF_YEAR, 1);
-        //DateTime now = DateUtil.beginOfDay(new Date());
+        dateTime = DateUtil.beginOfDay(dateTime);
+        dateTime.offset(DateField.DAY_OF_YEAR, 2);
+        DateTime now = DateUtil.beginOfDay(new Date());
 
-        return String.valueOf(DateUtil.between(new Date(), DateUtil.parse(getLoveTime()), DateUnit.DAY));
-        //return String.valueOf(dateTime.between(now, DateUnit.DAY));
+        
+        return String.valueOf(dateTime.between(now, DateUnit.DAY));
     }
 }
