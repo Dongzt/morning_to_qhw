@@ -111,7 +111,7 @@ public class Friend {
         //dateTime.offset(DateField.DAY_OF_YEAR, 1);
         //DateTime now = DateUtil.beginOfDay(new Date());
 
-        return String.valueOf(DateUtil.between(new Date(), DateUtil.parse(loveTime), DateUnit.DAY));
+        return String.valueOf(DateUtil.between(new Date(), DateUtil.parse(getLoveTime()), DateUnit.DAY));
         //return String.valueOf(dateTime.between(now, DateUnit.DAY));
     }
 }
