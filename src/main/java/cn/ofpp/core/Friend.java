@@ -108,7 +108,7 @@ public class Friend {
     }
     public static String getMemoryDay(DateTime dateTime) {
         dateTime = DateUtil.beginOfDay(dateTime);
-        dateTime.offset(DateField.DAY_OF_YEAR, 2);
+        //dateTime.offset(DateField.DAY_OF_YEAR,0);
         DateTime now = DateUtil.beginOfDay(new Date());
 
         
