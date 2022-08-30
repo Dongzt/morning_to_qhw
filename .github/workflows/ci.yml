@@ -1,8 +1,10 @@
 name: CareUEveryDay Cron CI
 
 on:
-  schedule:
-    - cron: '20 21 * * *'
+  push:
+    branches:
+      - main
+
 
 
 jobs:
