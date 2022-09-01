@@ -2,9 +2,9 @@
 
 ### 立即执行代码
 on:
-  push:
-    branches:
-      - main
+>>push:
+>>>>branches:
+>>>>>>- main
 
   
 
