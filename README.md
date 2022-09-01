@@ -1,9 +1,11 @@
 ## Fork by https://github.com/DokiYoloo/CareUEveryDay
-### 更新记录:  
-0829: 修复动态古诗词  
-0826: 临时移除一言随机古诗的动态获取，有超时问题等待换接口  
 
-  
+### 立即执行代码
+on:
+  push:
+    branches:
+      - main
+
   
 
 最近在抖音上的看到挺多人发的
